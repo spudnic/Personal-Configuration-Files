@@ -100,3 +100,4 @@ fi
 
 alias py='source /opt/pyvirt/bin/activate'
 alias svndiff='svn diff --diff-cmd kdiff3'
+alias yovpn='cd /home/brody/Documents/vpn; sudo openvpn --config client.opvn'
