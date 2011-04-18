@@ -98,6 +98,5 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
-alias py='source /opt/pyvirt/bin/activate'
+alias py="source ${HOME}/pyvirt/osx/1.0/bin/activate"
 alias svndiff='svn diff --diff-cmd kdiff3'
-alias yovpn='cd /home/brody/Documents/vpn; sudo openvpn --config client.opvn'
