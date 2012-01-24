@@ -101,5 +101,3 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-
-alias yovpn='cd /home/brody/Documents/vpn; sudo openvpn --config client.opvn'
