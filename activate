@@ -78,7 +78,7 @@ if [ -n "${BASH-}" ] || [ -n "${ZSH_VERSION-}" ] ; then
 fi
 
 # HACK for devleopment
-export PYTHONPATH=/home/brody/workspace/General-Python-Project/utils
+# export PYTHONPATH=/home/brody/workspace/General-Python-Project/utils
 
 alias dockclean='docker rmi $(docker images -q) --force'
 
