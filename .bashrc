@@ -116,5 +116,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# this sets up https://microk8s.io/?_ga=2.4541939.1186111688.1630640016-815708440.1630640016
 alias mkctl="microk8s kubectl"
+
+# this sets up kind https://kind.sigs.k8s.io/docs/user/quick-start/
+export PATH=${PATH}:/home/brody/go/bin
 
